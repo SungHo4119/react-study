@@ -1,0 +1,10 @@
+.App {
+  width: 500px;
+  margin: auto;
+  /* 자식요소 들이 한줄로 배치됨(아래에서 방향설정가능) */
+  display: flex;
+  /* flex 방향 : 세로로 */
+  flex-direction: column;
+  /* 자식 요소들의 간격 */
+  gap: 10px;
+}

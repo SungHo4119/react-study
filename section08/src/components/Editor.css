@@ -1,0 +1,27 @@
+.Editor {
+  display: flex;
+  gap: 10px;
+}
+
+.Editor > input {
+  /* 부모요소의 범위를 벗어나지 않는 내에서 최대로 늘어남 */
+  flex: 1;
+  /* 요소의 높이를 15px로 설정 */
+  padding: 15px;
+  /* 테두리 두깨를 1px로 설정하고 */
+  /* solid: 실선 / dashed: 점선 / dotted: 점, double: 이중선, none: 없음 */
+  border: 1px solid rgb(220, 220, 220);
+  /* 5px 만큼 둥근 모서리 */
+  border-radius: 5px;
+}
+
+.Editor > button {
+  /* 버튼에 마우스를 올렸을 때 포인터 모양으로 변경 */
+  cursor: pointer;
+
+  width: 80px;
+  border: none;
+  background-color: rgb(37, 147, 255);
+  color: white;
+  border-radius: 5px;
+}
